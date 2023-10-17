@@ -1,5 +1,7 @@
 Documentação de Uso do Componente FiltroComponent
+
 Introdução
+
 O FiltroComponent é um componente Angular reutilizável que permite aos usuários filtrar os veículos com base em critérios específicos, como combustível e ano. Ele fornece uma interface de usuário simples com caixas de seleção que permitem ao usuário escolher os critérios de filtro desejados.
 
 Pré-requisitos
