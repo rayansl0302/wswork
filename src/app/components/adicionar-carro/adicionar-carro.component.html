@@ -1,0 +1,26 @@
+<form [formGroup]="carroForm" (ngSubmit)="adicionarCarro()">
+    <h3>Adicionar novo Carro</h3>
+  <mat-form-field>
+    <input matInput placeholder="Nome do Modelo" formControlName="nomeModelo">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="Cor" formControlName="cor">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="Ano" formControlName="ano">
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Combustível</mat-label>
+    <mat-select formControlName="combustivel">
+      <mat-option value="Flex">Flex</mat-option>
+      <mat-option value="Diesel">Diesel</mat-option>
+    </mat-select>
+  </mat-form-field>
+
+<button mat-raised-button color="primary" type="submit">Adicionar Carro</button>
+<button mat-raised-button color="warn" type="button" (click)="fecharFormulario()">Fechar</button>
+
+</form>

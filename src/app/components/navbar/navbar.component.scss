@@ -1,0 +1,22 @@
+.nav-item{
+    cursor: pointer;
+    a{
+    color: #fff;
+}
+}
+.navbar-brand{
+    color: #fff;
+    font-size: 15px;
+    margin-left: 15px;
+}
+form{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+@media (max-width: 780px) {
+ .navbar-toggler{
+    filter: invert(1);
+}
+}

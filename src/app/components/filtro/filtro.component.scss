@@ -1,0 +1,12 @@
+.example-section{
+    display: flex;
+    flex-wrap: wrap;
+    .example-margin{
+        width: 100%;
+    }
+    h3{
+        margin:0px;
+        padding-top: 15px;
+    }
+}
+

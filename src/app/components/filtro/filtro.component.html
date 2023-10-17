@@ -1,0 +1,22 @@
+<form [formGroup]="filtroform" (ngSubmit)="filtrarveiculos()">
+    <mat-card >
+  <mat-card-content>
+    <h2 class="example-h2">Filtros</h2>
+
+    <section class="example-section">
+        <h3>Combustível</h3>
+        <mat-checkbox formControlName="flex" class="example-margin">Flex</mat-checkbox>
+        <mat-checkbox formControlName="diesel" class="example-margin">Diesel</mat-checkbox>       
+    </section>
+
+    <section class="example-section">        
+        <h3>Ano</h3>
+        <mat-checkbox formControlName="ano_2015" class="example-margin">2015</mat-checkbox>
+        <mat-checkbox formControlName="ano_2014" class="example-margin">2014</mat-checkbox>    
+        <mat-checkbox formControlName="ano_1993" class="example-margin">1993</mat-checkbox>       
+    </section>
+
+  </mat-card-content>
+</mat-card>
+
+</form>

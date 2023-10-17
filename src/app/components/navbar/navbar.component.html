@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-lg" style="background-color: #000040;">
+  <div class="container">
+   <img src="../../../assets/logows.svg" width="35" height="35" alt=""> <a class="navbar-brand" href="https://wswork.com.br/" target="_blank">Sistemas</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+        <a class="nav-link active" aria-current="page" (click)="abrirAdicionarCarroModal()">Adicionar Carro</a>
+        </li>
+      </ul>
+  <form [formGroup]="filtroFormNav" >
+  <input style="background-color:#fff;" matInput placeholder="Pesquise aqui o Modelo" formControlName="nome_modelo">
+  <button mat-icon-button type="submit">
+    <mat-icon style="filter: invert(1);">search</mat-icon>
+  </button>
+</form>
+
+
+    </div>
+  </div>
+</nav>
