@@ -1,3 +1,35 @@
+OBSERVAÇÃO MUITO IMPORTANTE:
+
+Como identifiquei dois erros:
+
+O primeiro erro de CORS porém resolvi criando um arquivo proxy.conf.js, fazendo uma alteração no angular.json.
+
+O segundo erro nas API's ( "num_portas" : 4 falta a ',' assim me impedindo de exibir as informações contidas nelas), mas, a esse segundo erro não foi possível solucionar, mesmo resolvendo o erro de CORS.
+
+Porém tomei a liberdade de pegar as informações e criar uma simulação de api com json server.
+
+Instalação Global do JSON Server:
+
+Abra seu terminal e execute o seguinte comando para instalar o json-server globalmente em sua máquina:
+
+npm install -g json-server
+
+Isso instalará o json-server globalmente, permitindo que você o utilize em qualquer projeto.
+
+Inicie o JSON Server:
+
+No terminal, navegue até o diretório onde está localizado o arquivo db.json ou forneça o caminho completo para o arquivo. Em seguida, execute o seguinte comando para iniciar o servidor JSON:
+
+json-server --watch db.json
+
+O --watch indica que o servidor deve "observar" o arquivo db.json para quaisquer alterações e atualizar os dados em tempo real.
+
+Acesse Seu Banco de Dados JSON:
+
+O JSON Server estará em execução no seguinte endereço por padrão:
+
+http://localhost:3000
+
 Documentação de Uso do Componente FiltroComponent
 
 Introdução
